@@ -2,8 +2,8 @@
 
 This is the implementation for our NeurIPS 2022 paper:
 
-> Parameter-free Dynamic Graph Embedding for Link Prediction.
-> Jiahao Liu, Dongsheng Li, Hansu Gu, Tun Lu, Peng Zhang, Ning Gu.
+> Parameter-free Dynamic Graph Embedding for Link Prediction.  
+> Jiahao Liu, Dongsheng Li, Hansu Gu, Tun Lu, Peng Zhang, Ning Gu.  
 > The Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS). 2022.
 
 We provide the code which can be used to reproduce the results of **Table 3: Accuracy comparison with state-of-the-art methods on two link prediction tasks.** 
@@ -12,13 +12,13 @@ We provide the code which can be used to reproduce the results of **Table 3: Acc
 
 There are four folders in this project, namely `data`, `preprocess`, `future-item-recommendation` and `next-interaction-prediction`. We will introduce how to use them in turn.
 
-Note that the model reads the processed dataset, so you must first use the script in `preprocess` folder to preprocess the raw data in `data` and obtain the processed dataset before running the model in `future-item-recommendation` and `next-interaction-prediction`.
+Note that the model reads the processed dataset, so you must first use the script in `preprocess` folder to preprocess the raw datasets in `data` and obtain the processed dataset before running the model in `future-item-recommendation` and `next-interaction-prediction`.
 
 We welcome you to contact the authors or open issues when you encounter any problems.
 
 ## `data`
 
-The raw dataset is saved in this folder, all datasets are public and available.
+The raw datasets is saved in this folder, all datasets are public and available.
 
 - For future item recommendation task
   - Video, Game: http://jmcauley.ucsd.edu/data/amazon/links.html
@@ -26,20 +26,20 @@ The raw dataset is saved in this folder, all datasets are public and available.
 - For next interaction prediction task
   - Wikipedia, Lastfm: http://snap.stanford.edu/jodie/
 
-At the same time, this folder is also used to store processed datasets. The processed datasets can be obtained through the script in `preprocess` folder.
+At the same time, this folder is also used to store the processed datasets. The processed datasets can be obtained through the script in `preprocess` folder.
 
 ## `preprocess`
 
 This folder contains 3 scripts for preprocessing datasets.
 
-- `amazon.ipynb` is used to preprocess Video and game.
+- `amazon.ipynb` is used to preprocess Video and Game.
 - `ml-100k.ipynb` is used to preprocess ML-100K.
 
 - `ml-1m.ipynb` is used to process ML-1M.
 
 ## `future-item-recommendation`
 
-After running the script in `preprocess` to obtain the processed dataset:
+After running the script in `preprocess` to obtain the processed datasets:
 
 - To reproduce the results of `FreeGEM *(with attr)` on `ML-100K` in Table 3(a) 
 
@@ -67,7 +67,7 @@ After running the script in `preprocess` to obtain the processed dataset:
 
 ## `next-interaction-prediction`
 
-After running the script in `preprocess` to obtain the processed dataset:
+After running the script in `preprocess` to obtain the processed datasets:
 
 - To reproduce the results of `FreeGEM`  on `Wikipedia` in Table 3(b) 
 
