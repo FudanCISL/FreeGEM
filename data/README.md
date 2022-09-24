@@ -1,4 +1,4 @@
-You need to download the raw dataset yourself, all datasets are public and available.
+You need to download the raw datasets yourself, all datasets are public and available.
 
 - For future item recommendation task
   - Video, Game: http://jmcauley.ucsd.edu/data/amazon/links.html
