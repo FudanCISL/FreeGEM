@@ -11,6 +11,4 @@ def call(args):
 if __name__ == "__main__":
     args = get_args()
     print(args)
-    for lbd in [0.7 + 0.01 * _ for _ in range(11)]:
-        args.lbd = lbd
-        call(args)
+    call(args)
